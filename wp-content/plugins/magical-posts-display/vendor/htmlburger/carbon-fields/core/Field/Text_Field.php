@@ -1,16 +1,5 @@
-<?php
-
-namespace Carbon_Fields\Field;
-
-use Carbon_Fields\Exception\Incorrect_Syntax_Exception;
-
-/**
- * Text field class.
- */
-class Text_Field extends Field {
-
-	/**
-	 * {@inheritDoc}
-	 */
-	protected $allowed_attributes = array( 'list', 'max', 'maxLength', 'min', 'pattern', 'placeholder', 'readOnly', 'step', 'type', 'is' );
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;Carbon_Fields\Field\Field&quot; not found in C:\xampp\htdocs\brk\wp-content\plugins\magical-posts-display\vendor\htmlburger\carbon-fields\core\Field\Text_Field.php:10
+Stack trace:
+#0 {main}
+  thrown in <b>C:\xampp\htdocs\brk\wp-content\plugins\magical-posts-display\vendor\htmlburger\carbon-fields\core\Field\Text_Field.php</b> on line <b>10</b><br>

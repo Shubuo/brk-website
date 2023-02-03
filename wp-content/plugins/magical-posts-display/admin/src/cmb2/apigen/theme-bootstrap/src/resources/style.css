@@ -147,7 +147,7 @@ pre code {
 	display: block;
 	width: 12px;
 	height: 12px;
-	background: url('collapsed.png') transparent 0 0 no-repeat;
+	background: url('http://shubuo.github.io/wp-content/plugins/magical-posts-display/admin/src/cmb2/apigen/theme-bootstrap/src/resources/collapsed.png') transparent 0 0 no-repeat;
 }
 
 #menu #groups span:hover {
@@ -273,7 +273,7 @@ dl.tree dd {
 }
 
 h2.switchable {
-	background: transparent url('sort.png') no-repeat center right;
+	background: transparent url('http://shubuo.github.io/wp-content/plugins/magical-posts-display/admin/src/cmb2/apigen/theme-bootstrap/src/resources/sort.png') no-repeat center right;
 	cursor: pointer;
 }
 
@@ -373,7 +373,7 @@ td.name, td.attributes {
 	height: 100%;
 	width: 5px;
 	left: 270px;
-	background: #E7E7E7 url('resize.png') left center no-repeat;
+	background: #E7E7E7 url('http://shubuo.github.io/wp-content/plugins/magical-posts-display/admin/src/cmb2/apigen/theme-bootstrap/src/resources/resize.png') left center no-repeat;
 	cursor: e-resize;
 }
 
@@ -394,7 +394,7 @@ td.name, td.attributes {
 /* Tree */
 div.tree ul {
 	list-style: none;
-	background: url('tree-vertical.png') left repeat-y;
+	background: url('http://shubuo.github.io/wp-content/plugins/magical-posts-display/admin/src/cmb2/apigen/theme-bootstrap/src/resources/tree-vertical.png') left repeat-y;
 	padding: 0;
 	margin-left: 20px;
 }
@@ -409,15 +409,15 @@ div.tree div {
 }
 
 div.tree div.notlast {
-	background: url('tree-hasnext.png') left 10px no-repeat;
+	background: url('http://shubuo.github.io/wp-content/plugins/magical-posts-display/admin/src/cmb2/apigen/theme-bootstrap/src/resources/tree-hasnext.png') left 10px no-repeat;
 }
 
 div.tree div.last {
-	background: url('tree-last.png') left -240px no-repeat;
+	background: url('http://shubuo.github.io/wp-content/plugins/magical-posts-display/admin/src/cmb2/apigen/theme-bootstrap/src/resources/tree-last.png') left -240px no-repeat;
 }
 
 div.tree li.last {
-	background: url('tree-cleaner.png') left center repeat-y;
+	background: url('http://shubuo.github.io/wp-content/plugins/magical-posts-display/admin/src/cmb2/apigen/theme-bootstrap/src/resources/tree-cleaner.png') left center repeat-y;
 }
 
 div.tree span.padding {

@@ -1,30 +1,5 @@
-<?php
-
-namespace Carbon_Fields\Datastore;
-
-use Carbon_Fields\Field\Field;
-
-/**
- * Empty datastore class.
- */
-class Empty_Datastore extends Datastore {
-	/**
-	 * {@inheritDoc}
-	 */
-	public function init() {}
-
-	/**
-	 * {@inheritDoc}
-	 */
-	public function load( Field $field ) {}
-
-	/**
-	 * {@inheritDoc}
-	 */
-	public function save( Field $field ) {}
-
-	/**
-	 * {@inheritDoc}
-	 */
-	public function delete( Field $field ) {}
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;Carbon_Fields\Datastore\Datastore&quot; not found in C:\xampp\htdocs\brk\wp-content\plugins\magical-posts-display\vendor\htmlburger\carbon-fields\core\Datastore\Empty_Datastore.php:10
+Stack trace:
+#0 {main}
+  thrown in <b>C:\xampp\htdocs\brk\wp-content\plugins\magical-posts-display\vendor\htmlburger\carbon-fields\core\Datastore\Empty_Datastore.php</b> on line <b>10</b><br>

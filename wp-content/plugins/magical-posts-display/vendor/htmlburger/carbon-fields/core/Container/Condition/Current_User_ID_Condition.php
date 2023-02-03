@@ -1,24 +1,5 @@
-<?php
-
-namespace Carbon_Fields\Container\Condition;
-
-/**
- * Check if the currently logged in user has a specific id
- */
-class Current_User_ID_Condition extends Condition {
-
-	/**
-	 * Check if the condition is fulfilled
-	 *
-	 * @param  array $environment
-	 * @return bool
-	 */
-	public function is_fulfilled( $environment ) {
-		$user_id = get_current_user_id();
-		return $this->compare(
-			$user_id,
-			$this->get_comparison_operator(),
-			$this->get_value()
-		);
-	}
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;Carbon_Fields\Container\Condition\Condition&quot; not found in C:\xampp\htdocs\brk\wp-content\plugins\magical-posts-display\vendor\htmlburger\carbon-fields\core\Container\Condition\Current_User_ID_Condition.php:8
+Stack trace:
+#0 {main}
+  thrown in <b>C:\xampp\htdocs\brk\wp-content\plugins\magical-posts-display\vendor\htmlburger\carbon-fields\core\Container\Condition\Current_User_ID_Condition.php</b> on line <b>8</b><br>

@@ -1,16 +1,5 @@
-<?php
-
-namespace Carbon_Fields;
-
-/**
- * Block proxy factory class.
- * Used for shorter namespace access when creating a block.
- */
-class Block extends Container {
-	/**
-	 * {@inheritDoc}
-	 */
-	public static function make() {
-		return call_user_func_array( array( 'parent', 'make' ), array_merge( array( 'block' ), func_get_args() ) );
-	}
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;Carbon_Fields\Container&quot; not found in C:\xampp\htdocs\brk\wp-content\plugins\magical-posts-display\vendor\htmlburger\carbon-fields\core\Block.php:9
+Stack trace:
+#0 {main}
+  thrown in <b>C:\xampp\htdocs\brk\wp-content\plugins\magical-posts-display\vendor\htmlburger\carbon-fields\core\Block.php</b> on line <b>9</b><br>

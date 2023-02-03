@@ -1,35 +1,5 @@
-<?php
-/**
- * Sample implementation of the Custom Header feature
- *
- * You can add an optional custom header image to header.php like so ...
- *
-	<?php the_header_image_tag(); ?>
- *
- * @link https://developer.wordpress.org/themes/functionality/custom-headers/
- *
- * @package PortfolioX
- */
-
-/**
- * Set up the WordPress core custom header feature.
- *
- * @uses portfoliox_header_style()
- */
-function portfoliox_custom_header_setup() {
-	add_theme_support(
-		'custom-header',
-		apply_filters(
-			'portfoliox_custom_header_args',
-			array(
-				'default-image'      => '',
-				'default-text-color' => '000000',
-				'width'              => 1800,
-				'height'             => 250,
-				'flex-height'        => true,
-			)
-		)
-	);
-}
-add_action( 'after_setup_theme', 'portfoliox_custom_header_setup' );
-
+<br>
+<b>Fatal error</b>:  Uncaught Error: Call to undefined function add_action() in C:\xampp\htdocs\brk\wp-content\themes\portfoliox\inc\custom-header.php:34
+Stack trace:
+#0 {main}
+  thrown in <b>C:\xampp\htdocs\brk\wp-content\themes\portfoliox\inc\custom-header.php</b> on line <b>34</b><br>

@@ -1,31 +1,5 @@
-<?php
-
-namespace Carbon_Fields\Container\Condition\Comparer;
-
-class Any_Equality_Comparer extends Comparer {
-
-	/**
-	 * Supported comparison signs
-	 *
-	 * @var array<string>
-	 */
-	protected $supported_comparison_operators = array( '=', '!=' );
-
-	/**
-	 * Check if comparison is true for $a and $b
-	 *
-	 * @param mixed  $a
-	 * @param string $comparison_operator
-	 * @param mixed  $b
-	 * @return bool
-	 */
-	public function is_correct( $a, $comparison_operator, $b ) {
-		switch ( $comparison_operator ) {
-			case '=':
-				return in_array( $b, $a );
-			case '!=':
-				return ! in_array( $b, $a );
-		}
-		return false;
-	}
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;Carbon_Fields\Container\Condition\Comparer\Comparer&quot; not found in C:\xampp\htdocs\brk\wp-content\plugins\magical-posts-display\vendor\htmlburger\carbon-fields\core\Container\Condition\Comparer\Any_Equality_Comparer.php:5
+Stack trace:
+#0 {main}
+  thrown in <b>C:\xampp\htdocs\brk\wp-content\plugins\magical-posts-display\vendor\htmlburger\carbon-fields\core\Container\Condition\Comparer\Any_Equality_Comparer.php</b> on line <b>5</b><br>

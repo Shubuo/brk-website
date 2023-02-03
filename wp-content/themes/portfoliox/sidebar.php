@@ -1,17 +1,5 @@
-<?php
-/**
- * The sidebar containing the main widget area
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package PortfolioX
- */
-
-if ( ! is_active_sidebar( 'sidebar-1' ) ) {
-	return;
-}
-?>
-
-<aside id="secondary" class="widget-area">
-	<?php dynamic_sidebar( 'sidebar-1' ); ?>
-</aside><!-- #secondary -->
+<br>
+<b>Fatal error</b>:  Uncaught Error: Call to undefined function is_active_sidebar() in C:\xampp\htdocs\brk\wp-content\themes\portfoliox\sidebar.php:10
+Stack trace:
+#0 {main}
+  thrown in <b>C:\xampp\htdocs\brk\wp-content\themes\portfoliox\sidebar.php</b> on line <b>10</b><br>

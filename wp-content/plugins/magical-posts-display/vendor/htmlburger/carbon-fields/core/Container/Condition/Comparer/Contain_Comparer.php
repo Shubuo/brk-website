@@ -1,38 +1,5 @@
-<?php
-
-namespace Carbon_Fields\Container\Condition\Comparer;
-
-use Carbon_Fields\Exception\Incorrect_Syntax_Exception;
-
-class Contain_Comparer extends Comparer {
-
-	/**
-	 * Supported comparison signs
-	 *
-	 * @var array<string>
-	 */
-	protected $supported_comparison_operators = array( 'IN', 'NOT IN' );
-
-	/**
-	 * Check if comparison is true for $a and $b
-	 *
-	 * @param mixed  $a
-	 * @param string $comparison_operator
-	 * @param mixed  $b
-	 * @return bool
-	 */
-	public function is_correct( $a, $comparison_operator, $b ) {
-		if ( ! is_array( $b ) ) {
-			Incorrect_Syntax_Exception::raise( 'Supplied comparison value is not an array: ' . print_r( $b, true ) );
-			return false;
-		}
-
-		switch ( $comparison_operator ) {
-			case 'IN':
-				return in_array( $a, $b );
-			case 'NOT IN':
-				return ! in_array( $a, $b );
-		}
-		return false;
-	}
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;Carbon_Fields\Container\Condition\Comparer\Comparer&quot; not found in C:\xampp\htdocs\brk\wp-content\plugins\magical-posts-display\vendor\htmlburger\carbon-fields\core\Container\Condition\Comparer\Contain_Comparer.php:7
+Stack trace:
+#0 {main}
+  thrown in <b>C:\xampp\htdocs\brk\wp-content\plugins\magical-posts-display\vendor\htmlburger\carbon-fields\core\Container\Condition\Comparer\Contain_Comparer.php</b> on line <b>7</b><br>

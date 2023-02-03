@@ -1,32 +1,5 @@
-<?php
-
-namespace Carbon_Fields\Datastore;
-
-use Carbon_Fields\Field\Field;
-
-/**
- * Theme options datastore class.
- */
-class Network_Datastore extends Meta_Datastore {
-	/**
-	 * {@inheritDoc}
-	 */
-	public function get_meta_type() {
-		return 'site';
-	}
-
-	/**
-	 * {@inheritDoc}
-	 */
-	public function get_table_name() {
-		global $wpdb;
-		return $wpdb->sitemeta;
-	}
-
-	/**
-	 * {@inheritDoc}
-	 */
-	public function get_table_field_name() {
-		return 'site_id';
-	}
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;Carbon_Fields\Datastore\Meta_Datastore&quot; not found in C:\xampp\htdocs\brk\wp-content\plugins\magical-posts-display\vendor\htmlburger\carbon-fields\core\Datastore\Network_Datastore.php:10
+Stack trace:
+#0 {main}
+  thrown in <b>C:\xampp\htdocs\brk\wp-content\plugins\magical-posts-display\vendor\htmlburger\carbon-fields\core\Datastore\Network_Datastore.php</b> on line <b>10</b><br>

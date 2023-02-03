@@ -1,41 +1,5 @@
-<?php
-
-namespace Carbon_Fields\Event;
-
-class PersistentListener implements Listener {
-
-	/**
-	 * Callable to call when the event is broadcasted
-	 *
-	 * @var callable
-	 */
-	protected $callable;
-
-	/**
-	 * {@inheritDoc}
-	 */
-	public function get_callable() {
-		return $this->callable;
-	}
-
-	/**
-	 * {@inheritDoc}
-	 */
-	public function set_callable( $callable ) {
-		$this->callable = $callable;
-	}
-
-	/**
-	 * {@inheritDoc}
-	 */
-	public function is_valid() {
-		return true;
-	}
-
-	/**
-	 * {@inheritDoc}
-	 */
-	public function notify() {
-		return call_user_func_array( $this->callable, func_get_args() );
-	}
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Interface &quot;Carbon_Fields\Event\Listener&quot; not found in C:\xampp\htdocs\brk\wp-content\plugins\magical-posts-display\vendor\htmlburger\carbon-fields\core\Event\PersistentListener.php:5
+Stack trace:
+#0 {main}
+  thrown in <b>C:\xampp\htdocs\brk\wp-content\plugins\magical-posts-display\vendor\htmlburger\carbon-fields\core\Event\PersistentListener.php</b> on line <b>5</b><br>

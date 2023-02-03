@@ -1,36 +1,5 @@
-<?php
-/*
- * Template Name: Magical Posts Display
- * Description: A Page Template for magical posts display plugin
- */
-
-get_header();
-?>
-	<main id="mgpdisplay-page" class="site-main magical-posts-template">
-
-		<?php
-			while ( have_posts() ) :
-				the_post();
-		?>
-		<?php if(has_post_thumbnail()): ?>
-		<div class="page-featured-image">
-			<?php the_post_thumbnail(); ?>
-		</div>
-		<?php endif; ?> 
-		<div class="container">
-			<div class="entry-content">
-				<?php
-				the_content();
-
-				?>
-			</div><!-- .entry-content -->
-		</div><!-- .container -->
-	<?php
-			endwhile; // End of the loop.
-		?>
-
-	</main><!-- #main -->
-
-
-<?php
-get_footer();
+<br>
+<b>Fatal error</b>:  Uncaught Error: Call to undefined function get_header() in C:\xampp\htdocs\brk\wp-content\plugins\magical-posts-display\lib\custom-template\mgp-template.php:7
+Stack trace:
+#0 {main}
+  thrown in <b>C:\xampp\htdocs\brk\wp-content\plugins\magical-posts-display\lib\custom-template\mgp-template.php</b> on line <b>7</b><br>

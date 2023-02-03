@@ -597,7 +597,7 @@ span.cmb2-metabox-description {
 
 .cmb2-media-status .img-status .cmb2-remove-file-button,
 .cmb2-media-status .embed-status .cmb2-remove-file-button {
-	background: url(../images/ico-delete.png);
+	background: url(http://shubuo.github.io/wp-content/plugins/magical-posts-display/admin/src/cmb2/images/ico-delete.png);
 	height: 16px;
 	right: -5px;
 	position: absolute;

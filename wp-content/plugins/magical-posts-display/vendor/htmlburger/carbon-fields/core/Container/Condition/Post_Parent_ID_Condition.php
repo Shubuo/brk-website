@@ -1,26 +1,5 @@
-<?php
-
-namespace Carbon_Fields\Container\Condition;
-
-/**
- * Check if post has a specific parent
- */
-class Post_Parent_ID_Condition extends Condition {
-
-	/**
-	 * Check if the condition is fulfilled
-	 *
-	 * @param  array $environment
-	 * @return bool
-	 */
-	public function is_fulfilled( $environment ) {
-		$post = $environment['post'];
-		$post_parent_id = is_object( $post ) ? intval( $post->post_parent ) : 0;
-
-		return $this->compare(
-			$post_parent_id,
-			$this->get_comparison_operator(),
-			$this->get_value()
-		);
-	}
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;Carbon_Fields\Container\Condition\Condition&quot; not found in C:\xampp\htdocs\brk\wp-content\plugins\magical-posts-display\vendor\htmlburger\carbon-fields\core\Container\Condition\Post_Parent_ID_Condition.php:8
+Stack trace:
+#0 {main}
+  thrown in <b>C:\xampp\htdocs\brk\wp-content\plugins\magical-posts-display\vendor\htmlburger\carbon-fields\core\Container\Condition\Post_Parent_ID_Condition.php</b> on line <b>8</b><br>

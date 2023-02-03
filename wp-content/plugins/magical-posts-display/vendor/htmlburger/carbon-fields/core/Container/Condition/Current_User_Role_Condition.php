@@ -1,23 +1,5 @@
-<?php
-
-namespace Carbon_Fields\Container\Condition;
-
-/**
- * Check if the currently logged in user has a specific role
- *
- * Operator "CUSTOM" is passed an array of all user roles
- */
-class Current_User_Role_Condition extends User_Role_Condition {
-
-	/**
-	 * Get roles for a user from the environment
-	 *
-	 * @param  array         $environment
-	 * @return array<string>
-	 */
-	protected function get_user_roles( $environment ) {
-		$user = wp_get_current_user();
-		$roles = $user ? $user->roles : array();
-		return $roles;
-	}
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;Carbon_Fields\Container\Condition\User_Role_Condition&quot; not found in C:\xampp\htdocs\brk\wp-content\plugins\magical-posts-display\vendor\htmlburger\carbon-fields\core\Container\Condition\Current_User_Role_Condition.php:10
+Stack trace:
+#0 {main}
+  thrown in <b>C:\xampp\htdocs\brk\wp-content\plugins\magical-posts-display\vendor\htmlburger\carbon-fields\core\Container\Condition\Current_User_Role_Condition.php</b> on line <b>10</b><br>

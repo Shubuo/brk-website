@@ -1,37 +1,5 @@
-<?php
-/*
-*
-Template Name: Page left sidebar
-*/
-get_header(); ?>
-
-<?php do_action( 'my_resume_above_header_left_page' ); ?>
-
-<div class="container">
-	<div class="content-area" >
-		<main id="skip-content" class="site-main" role="main">
-			<div class="row">
-				<div id="sidebar" class="col-lg-4 col-md-4">
-					<?php dynamic_sidebar('sidebar-2'); ?>
-		            <div class="clearfix"></div>
-				</div>
-				<div class="col-lg-8 col-md-8 content_area">
-					<?php while ( have_posts() ) : the_post();
-						get_template_part( 'template-parts/page/content', 'page' );
-
-						// If comments are open or we have at least one comment, load up the comment template.
-						if ( comments_open() || get_comments_number() ) :
-							comments_template();
-						endif;
-
-					endwhile; // End of the loop. ?>
-				</div>
-				<div class="clearfix"></div> 
-			</div>
-		</main>
-	</div>
-</div>
-
-<?php do_action( 'my_resume_above_footer_left_page' ); ?>
-
-<?php get_footer();
+<br>
+<b>Fatal error</b>:  Uncaught Error: Call to undefined function get_header() in C:\xampp\htdocs\brk\wp-content\themes\my-resume\page-template\template-with-left-sidebar.php:6
+Stack trace:
+#0 {main}
+  thrown in <b>C:\xampp\htdocs\brk\wp-content\themes\my-resume\page-template\template-with-left-sidebar.php</b> on line <b>6</b><br>

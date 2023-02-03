@@ -1,21 +1,5 @@
-<?php
-
-namespace Carbon_Fields\Container\Condition;
-
-/**
- * Check if user has a specific capability
- *
- * Operator "CUSTOM" is passed the user id
- */
-class Current_User_Capability_Condition extends User_Capability_Condition {
-
-	/**
-	 * Get user id from environment
-	 *
-	 * @param  array   $environment
-	 * @return integer
-	 */
-	protected function get_user_id( $environment ) {
-		return get_current_user_id();
-	}
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;Carbon_Fields\Container\Condition\User_Capability_Condition&quot; not found in C:\xampp\htdocs\brk\wp-content\plugins\magical-posts-display\vendor\htmlburger\carbon-fields\core\Container\Condition\Current_User_Capability_Condition.php:10
+Stack trace:
+#0 {main}
+  thrown in <b>C:\xampp\htdocs\brk\wp-content\plugins\magical-posts-display\vendor\htmlburger\carbon-fields\core\Container\Condition\Current_User_Capability_Condition.php</b> on line <b>10</b><br>

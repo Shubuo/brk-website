@@ -1,33 +1,5 @@
-<?php
-
-namespace Carbon_Fields\Field;
-
-/**
- * Date and time picker field class.
- */
-class Date_Time_Field extends Time_Field {
-
-	/**
-	 * {@inheritDoc}
-	 */
-	protected $picker_options = array(
-		'allowInput' => true,
-		'enableTime' => true,
-		'enableSeconds' => true,
-	);
-
-	/**
-	 * {@inheritDoc}
-	 */
-	protected $storage_format = 'Y-m-d H:i:s';
-
-	/**
-	 * {@inheritDoc}
-	 */
-	protected $input_format_php = 'Y-m-d g:i:s A';
-
-	/**
-	 * {@inheritDoc}
-	 */
-	protected $input_format_js = 'Y-m-d h:i:S K';
-}
+<br>
+<b>Fatal error</b>:  Uncaught Error: Class &quot;Carbon_Fields\Field\Time_Field&quot; not found in C:\xampp\htdocs\brk\wp-content\plugins\magical-posts-display\vendor\htmlburger\carbon-fields\core\Field\Date_Time_Field.php:8
+Stack trace:
+#0 {main}
+  thrown in <b>C:\xampp\htdocs\brk\wp-content\plugins\magical-posts-display\vendor\htmlburger\carbon-fields\core\Field\Date_Time_Field.php</b> on line <b>8</b><br>
