@@ -2,7 +2,7 @@
 /* Slider */
 .slick-loading .slick-list
 {
-    background: #fff url('http://shubuo.github.io/wp-content/plugins/gallery-box/assets/css/slick/ajax-loader.gif') center center no-repeat;
+    background: #fff url('https://shubuo.github.io/wp-content/plugins/gallery-box/assets/css/slick/ajax-loader.gif') center center no-repeat;
 }
 
 /* Icons */
@@ -12,8 +12,8 @@
     font-weight: normal;
     font-style: normal;
 
-    src: url('http://shubuo.github.io/wp-content/plugins/gallery-box/assets/css/slick/fonts/slick.eot');
-    src: url('http://shubuo.github.io/wp-content/plugins/gallery-box/assets/css/slick/fonts/slick.eot#iefix') format('embedded-opentype'), url('http://shubuo.github.io/wp-content/plugins/gallery-box/assets/css/slick/fonts/slick.woff') format('woff'), url('http://shubuo.github.io/wp-content/plugins/gallery-box/assets/css/slick/fonts/slick.ttf') format('truetype'), url('http://shubuo.github.io/wp-content/plugins/gallery-box/assets/css/slick/fonts/slick.svg#slick') format('svg');
+    src: url('https://shubuo.github.io/wp-content/plugins/gallery-box/assets/css/slick/fonts/slick.eot');
+    src: url('https://shubuo.github.io/wp-content/plugins/gallery-box/assets/css/slick/fonts/slick.eot#iefix') format('embedded-opentype'), url('https://shubuo.github.io/wp-content/plugins/gallery-box/assets/css/slick/fonts/slick.woff') format('woff'), url('https://shubuo.github.io/wp-content/plugins/gallery-box/assets/css/slick/fonts/slick.ttf') format('truetype'), url('https://shubuo.github.io/wp-content/plugins/gallery-box/assets/css/slick/fonts/slick.svg#slick') format('svg');
 }
 /* Arrows */
 .slick-prev, .slick-next {

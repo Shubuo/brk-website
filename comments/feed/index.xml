@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Burak Y. için yorumlar	</title>
-	<atom:link href="http://shubuo.github.io/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>http://shubuo.github.io</link>
+	<atom:link href="https://shubuo.github.io/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>https://shubuo.github.io</link>
 	<description></description>
 	<lastBuildDate>Thu, 02 Feb 2023 22:28:54 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -20,11 +20,11 @@
 	<item>
 		<title>
 		Merhaba dünya! yazısına Bir WordPress yorumcusu tarafından yapılan yorumlar		</title>
-		<link>http://shubuo.github.io/merhaba-dunya/#comment-1</link>
+		<link>https://shubuo.github.io/merhaba-dunya/#comment-1</link>
 
 		<dc:creator><![CDATA[Bir WordPress yorumcusu]]></dc:creator>
 		<pubDate>Thu, 02 Feb 2023 22:28:54 +0000</pubDate>
-		<guid isPermaLink="false">http://shubuo.github.io/?p=1#comment-1</guid>
+		<guid isPermaLink="false">https://shubuo.github.io/?p=1#comment-1</guid>
 
 					<description><![CDATA[Merhaba, bu bir yorumdur.
 Yorum moderasyonuna başlamak, düzenlemek ve silmek için lütfen yönetim panelindeki yorumlar bölümünü ziyaret edin.

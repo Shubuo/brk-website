@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	CV yazısına yapılan yorumlar	</title>
-	<atom:link href="http://shubuo.github.io/cv/feed/" rel="self" type="application/rss+xml" />
-	<link>http://shubuo.github.io</link>
+	<atom:link href="https://shubuo.github.io/cv/feed/" rel="self" type="application/rss+xml" />
+	<link>https://shubuo.github.io</link>
 	<description></description>
 	<lastBuildDate>Fri, 03 Feb 2023 20:54:35 +0000</lastBuildDate>
 	<sy:updatePeriod>

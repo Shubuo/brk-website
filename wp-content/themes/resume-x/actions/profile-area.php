@@ -1,5 +1,0 @@
-<br>
-<b>Fatal error</b>:  Uncaught Error: Call to undefined function add_action() in C:\xampp\htdocs\brk\wp-content\themes\resume-x\actions\profile-area.php:74
-Stack trace:
-#0 {main}
-  thrown in <b>C:\xampp\htdocs\brk\wp-content\themes\resume-x\actions\profile-area.php</b> on line <b>74</b><br>
